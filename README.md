@@ -17,7 +17,7 @@ Make sure to use a USB-LS keyboard for your tests.
 1. Install esptool: sudo apt install esptool
 2. Install pyserial: sudo pip install pyserial
 3. Download and Install the Arduino IDE: https://www.arduino.cc/en/main/software
-4. Download Evil Crow RF V2 repository: git clone https://github.com/joelsernamoreno/ESP32S2-USB_LS-Keylogger.git
+4. Download ESP32S2-USB_LS-Keylogger repository: git clone https://github.com/joelsernamoreno/ESP32S2-USB_LS-Keylogger.git
 5. Download the EspTinyUSB library in the Arduino library directory: git clone https://github.com/chegewara/EspTinyUSB.git
 6. Download the ESPAsyncWebServer library in the Arduino library directory: git clone https://github.com/me-no-dev/ESPAsyncWebServer.git
 7. Download the AsyncTCP library in the Arduino library directory: git clone https://github.com/me-no-dev/AsyncTCP.git
