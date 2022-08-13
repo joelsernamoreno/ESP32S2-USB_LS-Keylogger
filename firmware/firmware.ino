@@ -31,8 +31,6 @@ const char* password = "123456789";  //Enter your Password here
 const int wifi_channel = 12; //Enter your preferred Wi-Fi Channel
 
 const bool formatOnFail = true;
-String FileName;
-String FileList;
 
 #define LOAD_TINYUSB
 #define PROFILE_NAME "ESP32S2 Dev Module"

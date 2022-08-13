@@ -172,17 +172,6 @@ void SetModifiersArd(void) {
     if (rightalt_status) modifiersard = (modifiersard |  ALTGR);   
 };
 
-void writeFile(fs::FS &fs, const char * path, int message){
-  File file = fs.open(path, FILE_WRITE);
-  if(!file){
-    return;
-  }
-  if(file.print(message)){
-  } else {
-  }
-  file.close();
-}
-
 class KbdRptParser : public KeyboardReportParser
 {
   //void PrintKey(uint8_t mod, uint8_t key);
